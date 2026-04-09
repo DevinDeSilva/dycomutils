@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.2.0' 
+VERSION = '0.3.0' 
 DESCRIPTION = 'CodeBase of important Functions'
 LONG_DESCRIPTION = 'Contains Pytorch/ TensorFlow algorithms I have found in a single module'
 
