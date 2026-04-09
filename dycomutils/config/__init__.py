@@ -1,1 +1,5 @@
-from .dict_to_config import *
+from .dict_to_config import ConfigDict
+
+__all__ = [
+    "ConfigDict",
+]
