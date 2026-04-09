@@ -216,28 +216,9 @@ print(components)
 
 This is useful for basic clustering, graph partitioning, and grouping related indices.
 
-### Automation
-
-The [`dycomutils/automation/keystrokes.py`](/home/desild/work/personal/dycomutils/dycomutils/automation/keystrokes.py) module provides a small CLI utility that reads a file and types its contents using simulated keyboard input.
-
-Capabilities:
-
-- configurable startup delay
-- configurable per-character and per-line delays
-- randomized timing to make typing less uniform
-
-Example CLI usage:
-
-```bash
-python -m dycomutils.automation.keystrokes notes.txt --delay-start 6 --delay-char 0.02 --delay-line 0.5 --random 3
-```
-
-This is best suited for local automation workflows where text needs to be replayed as keyboard input.
-
 ## Notes
 
 - The concurrency module is exposed as `concurrancy`, matching the current package name in the code.
-- The automation module depends on `pynput`.
 - The concurrency helper uses `tqdm` for progress display.
 - The top-level package exports `serialization`, `concurrancy`, `grouping`, and `config`.
 
